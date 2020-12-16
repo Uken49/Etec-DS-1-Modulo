@@ -1,0 +1,4 @@
+Produtos: idProduto, descProduto
+Cliente: idCliente, idCheque
+Venda: idVenda, valorVenda, formaPagamentoVenda, idProduto
+Cheque: idCheque, numBancoCheque, numCheque, valorCheque, dataCheque, dataCompCheque, idCliente

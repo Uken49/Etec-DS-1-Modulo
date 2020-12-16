@@ -1,0 +1,11 @@
+Criança: id,nome,idPais,dataNasc,sexo,status
+
+Padrinhos:  id,nome,rg,cpf,sexo,fone,endereço
+
+ObservaçãoCriança: id,idCriança,obsHistórico,
+
+Prontuário: id,idCriança,prontuárioCriança
+
+CriançasApadrinhadas: id,idCriança
+
+Pais: id,nome,sexo,telefone
