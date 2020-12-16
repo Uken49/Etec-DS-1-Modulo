@@ -1,0 +1,20 @@
+Eclipse atalhos
+
+syso (Ctrl+Espaço) = System.out.println();
+
+Ctrl+Shit+O = Imports das classes
+Ctrl+Shit+F = Formatar código (identa)
+Ctrl + I = Formata a linha (identa)
+
+Shift+seta = Seleciona
+
+Ctrl + Alt = Move a linha pra cima ou pra baixo
+Ctrl+1 = Resolver problemas
+Ctrl + 1 ou Ctrl+2,R = Renomeia a variavel no código todo
+Ctrl+2+R = Rename todas ocorrencias
+
+Comandos
+
+import java.io.FileReader; = Permite ler arquivos
+import java.util.Scanner; = Permite ler o teclado
+break = Interrompe os laços (while,do...while,switch,etc)
