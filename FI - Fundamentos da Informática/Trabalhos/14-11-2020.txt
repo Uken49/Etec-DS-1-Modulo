@@ -1,0 +1,15 @@
+1- cd /
+2- mkdir etec
+3- cd etec
+4- mkdir FI PA "PW I" "BD I" LTT APS DD TP
+5- dir
+6- cd FI
+7- mkdir SistemaComputacional BitByte SistemasOperacionais PromptComando
+8- cd \etec\FI\PromptComando
+9- echo > teste.txt
+10- cd /
+11- rd etec\APS
+12- cd etec
+13- del */s /q .txt
+14- cd /
+15- rd /s /q etec

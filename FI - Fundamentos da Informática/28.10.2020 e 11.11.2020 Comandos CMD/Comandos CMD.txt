@@ -1,0 +1,80 @@
+		Prompt de comando/cmd
+
+win+r: cmd
+diretório=pasta
+
+    Palavras reservadas cmd
+
+•<comando> /? ensina a usar o comando
+
+•Ctrl + C - para imediatamente a execução de qualquer comando (porém não reverte o que já aconteceu)
+
+•dir- exibe o conteúdo do diretório
+    >dir /p- exibe o conteúdo com uma pausa
+    >dir <nome da pasta>\<nome da pasta>- exibe o conteúdo da pasta atual
+    >dir \<nome da pasta>- a "\" volta para o C: (diretório raiz) e exibe o conteúdo da pasta <nome da pasta>
+    >dir ..-exibe o conteúdo da pasta anterior
+
+•tree - exibe todos os diretórios dentro do local
+
+•cd <nome da pasta>-  entra na pasta 
+    >cd <nome da pasta>\<nome da pasta>- entra na pasta final
+    >cd / -volta para o diretório raiz
+    >cd ..-entra na pasta anterior
+    >cd ..\<nome da pasta>- volta para a pasta anterior
+	
+•<letra da unidade>: -muda o disco
+    exemplo: D:
+	
+•cls- limpa os comandos 
+	
+
+•Caminho absoluto-Usa a \
+    exemplo: \<nome da pasta>
+
+
+•Caminho relativo-Não usa nada
+     exemplo: <nome da pasta>
+	
+	
+•md OU mkdir-cria um diretório
+   exemplo1: md "Sistemas Operacionais"
+   exemplo2: md SistemasOperacionais
+
+obs1:Sem as aspas não é possível colocar espaço
+obs2:Colocando espaço,é criado outro diretório (o diretório é criado dentro da pasta que vc estiver)
+
+•echo > -Cria uma arquivo
+    exemplo: echo > poema.txt
+
+    >echo >> - Adiciona um texto dentro do arquivo (.txt)
+
+
+•rd-Deleta uma pasta vazia
+    >rd /S Deleta a pasta junto com o que tem dentro,pede confirmação
+    >rd /S /Q Deleta a pasta junto com o que tem dentro,não pede confirmação
+
+
+•type -Mostra o que tem no arquivo
+    exemplo: tristeza/ poema.txt
+
+•del <nome do arquivo> -deleta um arquivo
+    exemplo:
+    >del *<palavra>-Deleta todos os arquivos com essas palavras
+    >del *<palavra> /p -Deleta todos os arquivos com essas palavras e pede uma confirmação para cada arquivo
+    >del */s <palavra>-Entra em todas as pastas e vai deletando os arquivos com essas palavras
+
+•move - move (e/ou) renomeia o arquivo ou o diretório para outro local
+    exemplo de mover: move \etec\aula\teste.txt \etec\aula\BitByte\
+                                                 teste.txt        foi para                BitByte
+
+    exemplo de renomear: teste.txt teste2.txt
+		     teste.txt    virou    teste2.txt
+
+•copy - copia o arquivo ou diretório e coloca em outro lugar
+
+•rename - renomeia o arquivo ou diretório
+    exemplo: teste.txt teste2.txt
+            teste.txt    virou    teste2.txt  (mesma coisa do move)
+
+
