@@ -1,0 +1,63 @@
+Entrevista 2:
+-----------------------------------------------------------------------------------------------------
+e:Entrevistador
+r:Resposta
+-----------------------------------------------------------------------------------------------------
+
+•e:Houve alguma mudança na sua oficina dês da entrevista anterior?
+    r:Sim,elas foram:Controle de validade dos produtos,número de funcionários de balconistas agora é 1,Agora os descontos são apenas para as peças da loja (antigamente servia para a manutenção tbm)
+
+•e:Como que funciona o novo controle de validade? E como ocorre a fiscalização do prazo de validade dos produtos que serão vendidos?
+    r:Os produtos ficam em uma pratileira (tipo aquelas prateleiras enormes de mercado),os produtos comprados recentemente ficam em baixo,enquanto os mais antigos ficam em cima.
+
+•e:Qual é o horário de funcionamento da oficina? Em qual horário há um maior fluxo de clientes?
+    r:Abre as 11hrs e fecha as 18hrs. Não há um registro de fluxo diário,apenas o semanal
+
+•e:Como ocorre a visualização dos produtos por parte dos clientes?
+    r:Os produtos ficam expostos em uma pratileira no inteiror da oficina,na região onde os clientes circulam.
+
+•e:Dê alguns exemplos de peças pequenas e grandes?
+    r:pequenos: retrovisor,tapete de carro,farol
+     grande: parachoque,pradiador,paralama e aerofolio
+
+•e:No seu metodo de armazenamento,existe uma separação entre produtos frágeis e nao fragies?
+    r:Sim,existe um controle,cada os fragies e nao fragies ficam em prateleiras separados e também são separados por corredores,divididos entre frágies e não frágies.
+
+•e:Para que serve a injeção eletrônica?
+    r:Serve pra controlar o combustivel do carro e informar se está tudo bem com motor.
+
+•e:Como é feito a injeção eletrônica na sua oficina?
+    r:Os mecanicos especializados fazem isso em um comodo próprio com equipamentos adquedados
+
+•e:Quem meche nessa parte de gestão eletrônica da oficina?
+    r: Os 5 mecanicos especializados apenas.
+
+•e:Quais são todas as funções dos mecanicos especializados?
+    r: Eles usam o scanner automotivo para checar se deve fazer algum reparo no veículo e com a injeção eletronica. Apenas essas duas coisas.
+
+•e:E quais são os serviços dos não epecializados?
+    r: Eles trabalham com reparo automotivo,troca de óleo,instalacao de kit de ar condi e manutenções no geral.
+
+•e:Quem tem acesso sobre as caixas registradoras? Os acessos são parciais ou totais?
+    r: balconista (acesso parcial),dono (acesso total) e o gerente (acesso parcial)
+
+•e:Qual é o critério para o valor do desconto?
+    r: O entrevistado ficou em shock e não consiguiu responder.
+
+•e:Na entrevista anterior foi dito que os produtos não têm um prazo de validade para os produtos. Poderia confirmar essa informação?
+    r:A informação anterior estava errado,os produtos tem sim um prazo de validade.
+
+•e:Qual é a maneira de organizar os equipamentos que a oficina utiliza?
+   r:Os equipamentos ficam separados em um comodo especial,para que não haja conflito com os produtos que serão vendidos.
+
+•e:Quando sobra um produto,e as pessoas não compram,como a oficina lida com esse produto?
+    r:É cancelado a encomenda dos produtos que não estão sendo vendidos,até que seja comprado pelos clientes.
+
+•e:Como ocorre o registro de vendas?
+    r:A balconista faz um registro manual em um caderno.
+
+•e:Quais funcionários tem acesso aos registros de venda?
+    r:A balconista,o gerente e o dono,apenas.
+
+•e:A oficina verifica os produtos nas quais encomendam? (A pergunta se refere a encomendas feitas PARA a oficina)
+    r:Sim,é contado produto por produto(manualmente),para confirmar se a encomenda veio certa.
