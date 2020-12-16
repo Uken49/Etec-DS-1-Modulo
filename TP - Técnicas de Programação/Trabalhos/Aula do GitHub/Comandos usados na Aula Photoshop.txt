@@ -1,0 +1,14 @@
+1- Primeiro fui na pasta onde estavam as imagens,e por lá abri o Git Bash
+2- Usei o comando ''git init'' 
+3- Usei o comando "git status''
+4- Usei o comando ''git add .'' para adicionar os dois arquivos,pois na tarefa não diz que tem que ser um de cada
+vez
+5- Novamente usei o comando ''git status''
+6- Segui usando o comando ''git commit - "Imagem do Mário e do Deadpool"''
+7-  Usei o comando git branch -M master 
+8-  Usei o comando ''git remote add origin https://github.com/Uken49/Aula-Photoshop.git''
+9-  E por fim,usei o comando ''git push -u origin master''
+
+
+Link do repositório:
+https://github.com/Uken49/Aula-Photoshop

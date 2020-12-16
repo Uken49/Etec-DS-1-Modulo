@@ -1,0 +1,28 @@
+O site vai conter:
+
+Opção para rolagem automática;
+
+Banco de dados de cifras atualizados diariamente;
+
+Banco de dados cadastrados por úsuarios e revisados por um software próprio;
+
+Metrônomo;
+
+Opções para mudanças de tons;
+
+Opção para simplificar cifras;
+
+Opção para cifras de canhoto;
+
+Busca de cifras por: ritmo,gênero musical,autor e título;
+
+Criação de Playlist;
+
+Opção de criar e publicar conteúdo autoral.
+
+Logo:
+
+O logo tem a cor laranja pois ela reflete entusiasmo,alegria e algo sociável.
+A cor laranja é menos excitante do que o vermelho,mas agradavalmente estimulante,
+e também a cor laranja traz uma sensação de lazer,algo que você faz quando está
+relaxado.
