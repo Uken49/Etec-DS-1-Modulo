@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> FORMULÁRIO</title>
+    </head>
+    <body>
+        <img src="../../../../../Imagens/Eu com o Baruk 2.jpg" height="300">
+        <h1>FORMULÁRIOS</h1>
+        <form>  <!-- Cria um formulário -->
+        Nome do Cliente
+        <input type="text" name="nome" size="45" maxlength="10"><br><!-- <input> cria uma caixa digitavel -->
+            <!-- type=text permite caracteres escrito| name= da o nome da caixa| size= tamanho da caixa| maxlength= o máximo de caracteres na caixa -->
+
+        Sobrenome Do Cliente
+        <input type="text" name="sobrenome" value="Digite seu ultimo nome"><br>
+                                        <!-- value= o nome do dado que eu vou receber-->
+        Digite Sua Senha
+        <input type="password" size="50px" maxlength="10"><br>
+            <!-- type=password permite digitar senha (aparece *****) -->
+        
+        Informe seu estado Civil<br>
+        <input type="radio" name="Est_Civil" value="Casado(a)">Casado(a)<br>
+            <!-- type=radio permite selecionar a bolinha,apenas um-->
+        <input type="radio" name="Est_Civil" value="Solteiro(a)">Solteiro(a)<br>
+                                        <!-- value= o nome do dado que eu vou receber-->
+        <input type="radio" name="Est_Civil" value="Separado(a)">Separado(a)<br>
+        <input type="radio" name="Est_Civil" value="Viuvo(a)">Viuvo(a<br>
+        <input type="radio" name="Est_Civil" value="Divorciado(a)">Divorciado(a)<br>
+        <input type="radio" name="Est_Civil" value="Um_lixo_Solitário" checked>Ta bem men?<br>
+                                                                 <!-- checked já deixa selecionado,permite alterar -->
+        
+        Documentos
+        <input type="checkbox" name="doc" value="RG">RG
+            <!-- checkbox,permite selecionar o quadrado,pode ser mais de um -->
+        <input type="checkbox" name="doc" value="CPF">CPF
+        <input type="checkbox" name="doc" value="Titulo_Eleitor" checked>Titulo de Eleitor
+            <br>
+            <!-- DropBox/Menu Suspenso -->
+        Qual a linguagem de programação você conhece?<br>
+
+        <!-- select,permite selecionar o item da caixa -->
+        <select name="programas" size="2" multiple> <!-- multiple,permite selecionar mais de um item da caixa -->
+
+            <!-- size,quantidade de opções que vão aparecer -->
+            <option> Java</option>
+            <option> HTML</option>
+            <option> PHYTON</option>
+            <option> PHP</option>
+            <option> C#</option>
+        </select>
+        <br>
+        <!-- textarea,permite que o úsuario escreva -->
+        Digite as suas sujestões ou críticas<br>
+        <!-- cols & rows define o tamanho da área de texto-->
+        <textarea name="Sujestões" cols="54" rows="4" readonly>
+
+        </textarea>
+        <br>
+        <input type="submit" name="envio" value="Enviar">
+        <input type="reset" name="limpar" value="Apagar">
+        </form>
+
+    </body>
+
+</html>

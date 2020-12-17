@@ -1,0 +1,10 @@
+h1,h2{color: yellow;
+    background-color: tomato;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+/* O comando "*" faz com que tudo mude menos o que já foi alterado
+    exemplo:h1 e h2 não vão ser afetados pelo *,mas o h3,h4,h5,h6,body,img... vão ser */
+*{ color:rgb(128, 0, 32); 
+    /*background-color: rgb(0, 255, 76); */
+    size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

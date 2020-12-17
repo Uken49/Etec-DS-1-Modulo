@@ -1,0 +1,199 @@
+<!DOCTYPE html> <!-- Daqui pra baixo tem que estar em todas as páginas principais -->
+<html lang="pt-br">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="widht-device-widht, initial-scale=1, shrikn-to-fit=no">
+     <link rel="stylesheet" type="text/css" href="../CSS/style.css"> <!-- Chamando meu css -->
+     <script type="text/javascript" src="../js/bootstrap.js"></script><!-- Isso não pode ficar em baixo do bootstrap -->
+     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"><!-- Chamando o css do Bootstrap -->
+     <script type="text/javascript" src="../JS/jquery-3.5.1.min.js"></script> <!-- Chamando o javascript -->
+     <link rel="shortcut icon" href="../IMAGENS/favicon.ico" type="image/x-icon"> <!-- Favicon do site -->
+     <link rel="icon" href="../IMAGENS/favicon.ico" type="image/x-icon"> <!-- Sei lá,só tava lá pra copiar -->
+     <title>Formulário Alunos</title>
+</head>
+
+<body>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+          <!-- Tamanho e cor da barra :Cor cinza -->
+          <div class="container">
+               <a class="navbar-brand" href="../HTML/index.html"> <img src="../IMAGENS/Logo etecDS.png" width="65" height="65"> </a>
+               <!-- Logo -->
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarSite">
+                    <spam class="navbar-toggler-icon"></spam>
+               </button>
+               <div class="collapse navbar-collapse" id="NavbarSite">
+                    <ul class="navbar-nav">
+                         <li class="navbar-item ">
+                              <a class="nav-link" href="../HTML/index.html">INICIO</a>
+                         </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                         <li class="navbar-item ">
+                              <a class="nav-link" href="../HTML/forms.html">FORMULÁRIOS</a>
+                         </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                         <li class="navbar-item ">
+                              <a class="nav-link" href="../HTML/eventos.html">EVENTOS</a>
+                         </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                         <li class="navbar-item ">
+                              <a class="nav-link" href="../HTML/depoimentos.html">DEPOIMENTOS</a>
+                         </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                         <li class="navitem dropdown">
+                             <a class="nav-link dropdown-toggle" href="#" id="fale-conosco" data-toggle="dropdown" id="navdrop">FALE
+                                 CONOSCO</a>
+                             <div class="dropdown-menu">
+                                 <a href="https://www.facebook.com/etecguaianazes" class="dropdown-item">Facebook</a>
+                                 <a href="https://www.instagram.com/etecdeguaianazes/" class="dropdown-item">Instagram</a>
+                             </div>
+                         </li>
+                     </ul>
+                    <form class="form-inline">
+                         <input class="form-control ml-2 mr-2" type="search" name="caixa_de_busca"
+                              placeholder="Pesquisar">
+                         <button class="btn btn-dark" type="submit">Ok</button>
+                    </form>
+               </div>
+          </div>
+     </nav> <!-- Daqui pra cima tem que estar em todas as páginas principais -->
+     <form class="mx-5 my-4">
+          <div class="row">
+               <div class="col">
+                    <label for="input">Nome*</label>
+                    <input type="text" class="form-control" placeholder="João" required>
+               </div>
+               <div class="col">
+                    <label for="input">Sobrenome*</label>
+                    <input type="text" class="form-control" placeholder="Batista dos Santos" required><br>
+               </div>
+          </div>
+          <div class="form-row form-group">
+               <label for="inputEmail">Email*</label>
+               <input type="email" class="form-control" id="inputEmail" placeholder="email@endereco.com" required>
+          </div>
+          <div class="form-group">
+               <label for="tel">Telefone</label>
+               <input type="tel" class="form-control" id="tel" placeholder="(11) 12345 6789">
+          </div>
+          </div><br>
+          Idade: *
+          <div class="form-check">
+               <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao1"
+                    required>
+               <label class="form-check-label" for="exampleRadios2">Entre 15 e 18</label><br>
+               <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+               <label class="form-check-label" for="exampleRadios2">Entre 19 e 22</label><br>
+               <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao3">
+               <label class="form-check-label" for="exampleRadios2">Entre 23 e 26</label><br>
+               <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao4">
+               <label class="form-check-label" for="exampleRadios2">Acima de 30</label>
+          </div><br><br>
+          Sexo: *
+          <div class="form-check">
+               <input class="form-check-input" type="radio" name="masculino" id="masculino" value="opcao1" required>
+               <label class="form-check-label" for="exampleRadios2">Masculino</label><br>
+               <input class="form-check-input" type="radio" name="feminino" id="feminino" value="opcao2">
+               <label class="form-check-label" for="exampleRadios2">Feminino</label><br>
+               <input class="form-check-input" type="radio" name="naoInformar" id="naoDizer" value="opcao3">
+               <label class="form-check-label" for="exampleRadios2">Não informar</label><br>
+          </div><br><br>
+          Em qual módulo você está: *<br>
+          <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opcao1"
+                    required>
+               <label class="form-check-label" for="inlineRadio1">Primeiro Módulo</label>
+          </div><br>
+          <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opcao2">
+               <label class="form-check-label" for="inlineRadio1">Segundo Módulo</label>
+          </div><br>
+          <div class="form-check form-check-inline">
+               <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opcao3">
+               <label class="form-check-label" for="inlineRadio1">Terceiro Módulo</label>
+          </div><br><br>
+          De qual turma você é? *<br>
+          <div class="form-check">
+               <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1"
+                    value="opcao1" required>
+               <label class="form-check-label" for="inlineRadio1">Turma A</label><br>
+
+               <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1"
+                    value="opcao2">
+               <label class="form-check-label" for="inlineRadio1">Turma B</label>
+          </div><br><br>
+          <div class="form-group">
+               <label for="formGroupExampleInput">Qual é a sua aula preferida?</label>
+               <input type="text" class="form-control" id="AulaFav" placeholder="Dos componentes de DS">
+          </div><br><br>
+          <div class="form-group">
+               <label for="formGroupExampleInput">Qual/quais professores(as) te marca e/ou marcou
+                    mais?</label>
+               <input type="text" class="form-control" id="professorFav" placeholder="Professores de DS">
+          </div><br><br>
+          <div class="form-group">
+               <label for="formGroupExampleInput">O que está achando do curso de DS?</label>
+               <input type="text" class="form-control" id="cursoOpiniao" placeholder="Seja sincero">
+          </div><br><br>
+          <div class="form-group">
+               <label for="formGroupExampleInput">Pretende ingressar na área de TI após o curso?*</label>
+               <input type="text" class="form-control" id="formGroupExampleInput"
+                    placeholder="Na área de TI ou algo relacionado" required>
+          </div><br><br>
+          <div class="form-group">
+               <label for="formGroupExampleInput">Qual está sendo a sua maior dificuldade no
+                    curso? *</label>
+               <input type="text" class="form-control" id="formGroupExampleInput"
+                    placeholder="Pense bem,pois isso servirá para melhorarmos nos aspectos apontado" required>
+          </div><br><br>
+          <div class="form-group">
+               <label for="exampleFormControlTextarea1"> Fique a vontade para tirar dúvidas ou
+                    dar sujestões! Nosso retorno será enviado pelo email informado.</label>
+               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" spellcheck="true"
+                    placeholder="Não insira ofenças e palavras de baixo calão,pois esse formulário foi feito por alunos do primeiro módulo.Fique a vontade para dar críticas construtivas e sujestões :D"></textarea>
+               </textarea>
+               <div class="btn my-4">
+                    <!-- Inicio Botão Enviar e Apagar -->
+                    <input class="btn btn-primary" type="submit" value="Enviar">
+                    <input class="btn btn-primary" type="reset" value="Resetar">
+               </div><!-- Fim Botão Enviar e Apagar -->
+          </div>
+     </form>
+     <div>
+          <!-- Isso precisa estar em todas as páginas -->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-8">
+                          <p class="texto2">
+                              <b>ETEC de Guaianazes</b> <br><br>
+                              Rua: Feliciano de Mendonça, 290 - Guaianazes<br>
+                              São Paulo - SP<br>
+                              (11) 255X-XXXX<br>
+                              (11) 255X-XXXX<br><br>
+                              <div class="direitosReservados">
+                                  &copy; Todos os direitos reservados - 2020.
+                              </div>
+                          </p>
+                      </div>
+                      <div class="col-4">
+                          <p class="texto2">
+                              <b>Desenvolvedores do site</b> <br><br>
+                              Arlivan Emanuel <br>
+                              Gabriel Cavalcanti<br>
+                              Helder Davidson<br>
+                              Kaiky Pereira<br>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </nav>
+      </div>
+  </body>
+  
+  </html>

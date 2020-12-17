@@ -1,0 +1,4 @@
+Arlivan Emanuel - Formulario de aluno, bootstrap e eventos.
+Gabriel Cavalcanti - Formulario de visitante e depoimentos.
+Helder Davidson - Index,CSS,formulario principal e bootstrap.
+Kaiky Pereira - Index.

@@ -1,0 +1,176 @@
+<!DOCTYPE html> <!-- Daqui pra baixo tem que estar em todas as páginas principais -->
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht-device-widht, initial-scale=1, shrikn-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css"> <!-- Chamando meu css -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"><!-- Chamando o css do Bootstrap -->
+    <script type="text/javascript" src="../JS/jquery-3.5.1.min.js"></script> <!-- Chamando o javascript -->
+    <link rel="shortcut icon" href="../IMAGENS/favicon.ico" type="image/x-icon"> <!-- Favicon do site -->
+    <link rel="icon" href="../IMAGENS/favicon.ico" type="image/x-icon"> <!-- Sei lá,só tava lá pra copiar -->
+    <script type="text/javascript" src="../js/bootstrap.js"></script><!-- Isso não pode ficar em baixo do bootstrap -->
+    <title>Formulário Visitantes</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <!-- Tamanho e cor da barra :Cor cinza -->
+        <div class="container">
+            <a class="navbar-brand" href="../HTML/index.html"> <img src="../IMAGENS/Logo etecDS.png" width="65" height="65"> </a>
+            <!-- Logo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarSite">
+                <spam class="navbar-toggler-icon"></spam>
+            </button>
+            <div class="collapse navbar-collapse" id="NavbarSite">
+                <ul class="navbar-nav">
+                    <li class="navbar-item ">
+                        <a class="nav-link" href="../HTML/index.html">INICIO</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="navbar-item ">
+                        <a class="nav-link" href="../HTML/forms.html">FORMULÁRIOS</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="navbar-item ">
+                        <a class="nav-link" href="../HTML/eventos.html">EVENTOS</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="navbar-item ">
+                        <a class="nav-link" href="../HTML/depoimentos.html">DEPOIMENTOS</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="navitem dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="fale-conosco" data-toggle="dropdown" id="navdrop">FALE
+                            CONOSCO</a>
+                        <div class="dropdown-menu">
+                            <a href="https://www.facebook.com/etecguaianazes" class="dropdown-item">Facebook</a>
+                            <a href="https://www.instagram.com/etecdeguaianazes/" class="dropdown-item">Instagram</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control ml-2 mr-2" type="search" name="caixa_de_busca" placeholder="Pesquisar">
+                    <button class="btn btn-dark" type="submit">Ok</button>
+                </form>
+            </div>
+        </div>
+    </nav> <!-- Daqui pra cima tem que estar em todas as páginas principais -->
+    <form class="mx-5 my-4">
+        <div class="row">
+            <div class="col">
+                <label for="input">Nome*</label>
+                <input type="text" class="form-control" placeholder="João" required><br>
+            </div>
+            <div class="col">
+                <label for="input">Sobrenome*</label>
+                <input type="text" class="form-control" placeholder="Batista dos Santos" required><br>
+            </div>
+        </div>
+        <div class="form-row form-group">
+            <label for="inputEmail">Email*</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="email@endereco.com" required><br>
+        </div>
+        <div class="form-group">
+            <label for="tel">Telefone</label>
+            <input type="tel" class="form-control" id="inputTel" placeholder="(11) 12345 6789"><br>
+        </div>
+        </div>
+        Idade: *
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="idade" id="abaixoDe10" value="abaixoDe10" required>
+            <label class="form-check-label" for="idade">Abaixo de 10</label><br>
+            <input class="form-check-input" type="radio" name="idade" id="entre11e15" value="entre11e15">
+            <label class="form-check-label" for="idade">Entre 11 e 15</label><br>
+            <input class="form-check-input" type="radio" name="idade" id="entre16e21" value="entre16e21">
+            <label class="form-check-label" for="idade">Entre 16 e 21</label><br>
+            <input class="form-check-input" type="radio" name="idade" id="entre22e30" value="entre22e30">
+            <label class="form-check-label" for="idade">Entre 22 e 30</label><br>
+            <input class="form-check-input" type="radio" name="idade" id="acimaDe30" value="acimaDe30">
+            <label class="form-check-label" for="idade">Acima de 30</label>
+        </div><br><br>
+        Sexo: *
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="sexo" id="masculino" value="menino" required>
+            <label class="form-check-label" for="sexo">Masculino</label><br>
+            <input class="form-check-input" type="radio" name="sexo" id="feminino" value="feminino">
+            <label class="form-check-label" for="sexo">Feminino</label><br>
+            <input class="form-check-input" type="radio" name="sexo" id="naoDizer" value="naoDizer">
+            <label class="form-check-label" for="sexo">Não informar</label>
+        </div><br><br>
+        Você conhece ou já conheceu alguém que fez o curso de DS na Etec de Guaianazes?*
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="conhecidoNoCurso" id="sim" value="sim" required>
+            <label class="form-check-label" for="conhecidoNoCurso">Sim</label><br>
+            <input class="form-check-input" type="radio" name="conhecidoNoCurso" id="nao" value="nao">
+            <label class="form-check-label" for="conhecidoNoCurso">Não</label>
+        </div><br><br>
+        Qual é foi a satisfação dessa pessoa com o curso?*
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="satisfacao" id="muitoBom" value="muitoBom" required>
+            <label class="form-check-label" for="satisfacao">Muito Satisfatório / Muito Bom</label><br>
+            <input class="form-check-input" type="radio" name="satisfacao" id="bom" value="bom">
+            <label class="form-check-label" for="satisfacao">Satisfatório / Bom</label><br>
+            <input class="form-check-input" type="radio" name="satisfacao" id="medio" value="medio">
+            <label class="form-check-label" for="satisfacao">Mediana</label><br>
+            <input class="form-check-input" type="radio" name="satisfacao" id="ruim" value="ruim">
+            <label class="form-check-label" for="satisfacao">Pouco satisfatório / Ruim </label>
+        </div><br><br>
+        Hoje,essa pessoa trabalha na área de TI?*
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="trabalhaComTI" id="sim" value="nao" required>
+            <label class="form-check-label" for="trabalhaComTI">Não</label><br>
+            <input class="form-check-input" type="radio" name="trabalhaComTI" id="sim" value="sim">
+            <label class="form-check-label" for="trabalhaComTI">Sim</label>
+        </div><br><br>
+        <div class="form-group">
+            <label for="duvidas"> Fique a vontade para tirar dúvidas ou dar sujestões! Nosso retorno
+                será enviado pelo email informado.
+            </label>
+            <textarea class="form-control" id="duvidas" rows="3" spellcheck="true"
+                placeholder="Não insira ofenças e palavras de baixo calão,pois esse formulário foi feito por alunos do primeiro módulo.Fique a vontade para dar críticas construtivas e sujestões :D"></textarea>
+            </textarea>
+        </div>
+
+        <!-- Inicio Botão Enviar e Apagar -->
+        <input class="btn btn-primary" type="submit" value="Enviar">
+        <input class="btn btn-primary" type="reset" value="Resetar">
+        <!-- Fim Botão Enviar e Apagar -->
+    </form>
+    <div>
+        <!-- Isso precisa estar em todas as páginas -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <p class="texto2">
+                            <b>ETEC de Guaianazes</b> <br><br>
+                            Rua: Feliciano de Mendonça, 290 - Guaianazes<br>
+                            São Paulo - SP<br>
+                            (11) 255X-XXXX<br>
+                            (11) 255X-XXXX<br><br>
+                            <div class="direitosReservados">
+                                &copy; Todos os direitos reservados - 2020.
+                            </div>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <p class="texto2">
+                            <b>Desenvolvedores do site</b> <br><br>
+                            Arlivan Emanuel <br>
+                            Gabriel Cavalcanti<br>
+                            Helder Davidson<br>
+                            Kaiky Pereira<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</body>
+
+</html>

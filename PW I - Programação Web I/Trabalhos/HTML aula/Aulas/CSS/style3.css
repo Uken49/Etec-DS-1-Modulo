@@ -1,0 +1,12 @@
+#conteudo{color: rgb(42, 15, 92);
+        text-align: center;
+        size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+#texto{background-color: tomato; color: khaki;}
+*{color: rgb(228, 21, 21);}
+/*#id*/
+/*.class*/
+.texto1{text-align: right;color: lawngreen;}
+.fund{background-color: indigo;
+    font-size: 60px;}

@@ -1,0 +1,22 @@
+.texto{
+    color: black;
+    margin-left: 50px;
+    margin-right: 30px;
+    text-indent: 10px;
+}
+img{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.texto2{
+    color: black;
+    font-size: 17px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+.direitosReservados{
+    margin-left: 40px;
+    margin-bottom:10px;
+    font-size: 20px;
+}
