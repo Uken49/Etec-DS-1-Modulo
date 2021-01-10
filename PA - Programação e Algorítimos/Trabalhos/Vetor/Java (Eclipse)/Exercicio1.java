@@ -9,13 +9,13 @@ public class Exercicio1 {
 		a = new int[TAM];
 		b = new int[TAM];
 		
-		//Laço para a leitura do vetor A
+		//LaÃ§o para a leitura do vetor A
 		for (i = 0; i < TAM; i++) {
 			System.out.println("Digite o "+(i+1)+" valor do vetor A");
 			a[i] = in.nextInt();
 			b[i]=a[i]*a[i];
 		}
-		//Laço para apresentar o vetor B
+		//LaÃ§o para apresentar o vetor B
 		System.out.println("Vetor B:");
 		for (i=0; i<TAM; i++) {
 			System.out.print("["+b[i]+"] ");
