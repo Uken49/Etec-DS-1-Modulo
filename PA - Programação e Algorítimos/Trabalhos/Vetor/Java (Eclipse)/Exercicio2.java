@@ -10,12 +10,12 @@ public class Exercicio2 {
 		b = new int[TAM];
 		c = new int[TAM];
 		
-		//Laço para a leitura do vetor A
+		//LaÃ§o para a leitura do vetor A
 		for (i=0;i<TAM;i++) {
 			System.out.println("Digite o "+(i+1)+" valor do vetor A");
 			a[i]=in.nextInt();
 		}
-		//Laço para a leitura do vetor B
+		//LaÃ§o para a leitura do vetor B
 		for (i=0;i<TAM;i++) {
 			System.out.println("Digite o "+(i+1)+" valor do vetor B");
 			b[i]=in.nextInt();
