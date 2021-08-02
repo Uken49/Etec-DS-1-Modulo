@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" media="all">
+        <title>Teste</title>
+    </head>
+    
+    <body>
+        <form action="">
+            
+            <div class="form-check">
+                <label for="">Digite seu Nome</label>
+                <input class="form" type="text" id="txNome">
+            </div>
+
+            <div class="form-check">
+                <label for="">Digite sua Idade</label>
+                <input class="form" type="text"id="txIdade">
+            </div>
+
+            <div class="form-check">
+                <input type="submit" value="Verificar" onclick="verificarNomeIdade()">
+            </div>
+        </form>
+
+        <script>
+            function verificarNomeIdade(){
+                var nome = (document.getElementById("txNome").value).toUpperCase();
+                var idade = document.getElementById("txIdade").value;
+
+                if (idade<18) {
+                    alert(nome+
+                    "\nMenor de idade");
+                }else{
+                    alert(nome+
+                    "\nMaior de idade");
+                }
+            }
+        </script>
+    </body>
+</html>
